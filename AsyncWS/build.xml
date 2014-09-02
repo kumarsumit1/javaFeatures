@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project>
+<project name= "generate-client" default= "main" basedir= ".">
+<property name= "cmd.location" value= "C:\Program Files\Java\jdk1.7.0\bin\wsimport.exe" />
+<property name= "wsdl.location" value="http://localhost:1235/MySOAPService?wsdl" />
+<target name= "main">
+<exec executable= "${cmd.location}">
+<arg line= "${wsdl.location} -b asyncBinding.xml -s src -p com.wipro.ws.server  -Xdebug -verbose -Xnocompile" />
+</exec>
+</target>
+</project>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org//XMLSchema">
+	<!-- XML Schema Generated from XML Document on Thu Feb 6 14:47:20 UTC+0530 
+		2014 -->
+	<!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+	<xs:elementname = ASAPReq ">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:elementname = CURRENT_MSISDN " type="xs:int">
+				</xs:element>
+					<xs:elementname = NEW_MSISDN ">
+					</xs:element>
+						<xs:elementname = ACTION " type="xs:string">
+						</xs:element>
+							<xs:elementname = ORDER_ID " type="xs:string">
+							</xs:element>
+								<xs:elementname = CIRCLE_CODE " type="xs:string">
+								</xs:element>
+									<xs:elementname = IMSI " type="xs:int">
+									</xs:element>
+										<xs:elementname = SIM_TYPE ">
+										</xs:element>
+											<xs:elementname = NEW_IMSI ">
+											</xs:element>
+												<xs:elementname = CRBT ">
+												</xs:element>
+													<xs:elementname = CHANNEL_TYPE " type="xs:string">
+													</xs:element>
+														<xs:elementname = TRANS_ID " type="xs:string">
+														</xs:element>
+			</xs:sequence>
+
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
